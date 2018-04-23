@@ -1,8 +1,5 @@
-//==========================================================
-//Replace srizon with your dribbble username
-//==========================================================
-$.jribbble.getShotsByPlayerId('krzys_wszel', function (playerShots) {
-    var html = [];
+ $.jribbble.getShotsByPlayerId('krzys_wszel', function (playerShots) {
+    var html = []; 
 
 //PORTFOLIO SETUP
 
@@ -18,15 +15,6 @@ $.jribbble.getShotsByPlayerId('krzys_wszel', function (playerShots) {
     $('#shotsByPlayerId').html(html.join(''));
 }, {page: 1, per_page: 9});
 
-//========================
-//PRELOADER
-//========================
-$(window).load(function() { // makes sure the whole site is loaded
-	$('#status').fadeOut(); // will first fade out the loading animation
-	$('#preloader').delay(350).fadeOut('slow');
-    // will fade out the white DIV that covers the website.
-	$('body').delay(350).css({'overflow':'visible'});
-})
 
 //SCROLLBAR  
 
