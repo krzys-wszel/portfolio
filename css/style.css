@@ -91,7 +91,7 @@ HERO AREA
     margin: auto;
     color: #fff;
     text-align: center;
-    background: url(/img/hero4.jpg) center/cover fixed black;
+    background: url(/img/hero4.jpg) center/cover fixed;
     background-size: cover;
     -o-object-position: center;
     object-position: center;
