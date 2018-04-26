@@ -6,10 +6,11 @@
 }
 
 .navbar {
-	font-size: 24px;
+    font-size: 20px;
     background-color: #efefef;
 }
-.btn-default{
+
+.btn-default {
     background: none;
     border: none;
     text-transform: uppercase;
@@ -18,12 +19,13 @@
     letter-spacing: 2px;
 }
 
-.btn-default:hover{
+.btn-default:hover {
     background: none;
     color: #ea9312;
 }
 
-.btnicon, .brandicon{
+.btnicon,
+.brandicon {
     margin-right: 10px;
 }
 
@@ -100,15 +102,18 @@ HERO AREA
     object-position: center;
     height: 650px;
     margin: auto;
- text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+}
+#hero h4 {
+    font-size: 26px;
+}
+#hero h1 {
+	font-size: 36px
 }
 
-#hero .container {
-    width: 1200px;
-}
 
 .herocontent {
-    padding-top: 170px;
+    padding-top: 200px;
     font-weight: 5000;
     z-index: 1000;
 
@@ -129,39 +134,42 @@ ABOUT SECTION
 }
 
 #about {
-    padding-top: 80px;
+    padding-top: 75px;
 }
 
 #about .myphoto img {
+    margin-left: 120px;
     border-radius: 50px;
-    width: 100%;
-    height: 100%;
+    width: 65%;
+    height: auto;
     border-collapse: collapse;
     padding: 20px;
     -o-object-fit: fill;
     object-fit: fill;
-}
-#about .myphoto img:hover {
     
 }
+
+#about .myphoto img:hover {}
 
 /*================================
 SKILLS SECTION
 ================================*/
 
 #services img {
-	width 100px;
+    width 100px;
     height: 100px;
     border-radius: 50%;
 }
+
 .myapps {
-    margin-top: 25px;
+    margin-top: 75px;
 }
 
 #skills {
+   
     background: #efefef;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
 }
 
 .myapps ul {
@@ -184,13 +192,10 @@ SKILLS SECTION
     -o-object-fit: fill;
     object-fit: fill;
 }
-/*#skills .myapps li img:hover {
-    transform: scale(1.5, 1.5);
-}*/
+
 .myapps h5 {
     font-size: 32px;
     text-align: center;
-
 }
 
 /*================================
@@ -245,12 +250,12 @@ PORTFOLIO SECTION
 
 .img-2 {
     background-image: url("../img/2.png");
-    
+
 }
 
 .img-3 {
     background-image: url("../img/3.png");
-   
+
 }
 
 .img-4 {
@@ -296,51 +301,6 @@ PORTFOLIO SECTION
     text-align: center;
 }
 
-#shotsByPlayerId li {
-    width: 31%;
-    float: left;
-    padding: 15px;
-    margin: 10px;
-    background: #fff;
-    border-radius: 5px;
-}
-
-#shotsByPlayerId li:hover {
-    -webkit-box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
-    box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
-    -webkit-transition: .7s ease-out;
-    transition: .7s ease-out;
-}
-
-#shotsByPlayerId li img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-#shotsByPlayerId img:hover {
-    opacity: .5;
-    overflow: hidden;
-}
-
-#shotsByPlayerId a:hover {
-    color: #ea9312;
-}
-
-#shotsByPlayerId h3 {
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: normal;
-    white-space: nowrap;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#shotsByPlayerId h3 a {
-    color: #363942;
-}
 
 .likecount a {
     float: left;
@@ -392,6 +352,7 @@ footer i:hover {
 
 .footerlinks {
     margin: 30px 0;
+    visibility: visible;
 }
 
 .footerlinks li {
@@ -420,4 +381,3 @@ footer i:hover {
 .footersocial li a:hover {
     color: #ea9312;
 }
-
