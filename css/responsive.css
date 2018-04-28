@@ -95,12 +95,14 @@
         #hero h2 {
             font-size: 22px;
         }
-        /* Smallest Mobile Devices 
-       /@media only screen and (max-width: 320px) {
+        /* Smallest Mobile Devices */
+       @media only screen and (max-width: 320px) {
             #hero {
-                height: 480px;
+                height: 650px;
+                text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312,     0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+                font-weight: bolder;
+}
+            
+           .herocontent {
+                      padding-bottom: 30px;
             }
-            /*.herocontent {
-                padding-top: 100px;
-                padding-bottom: 30px;
-            }*/
