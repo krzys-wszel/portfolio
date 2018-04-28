@@ -95,12 +95,12 @@
         #hero h2 {
             font-size: 22px;
         }
-        /* Smallest Mobile Devices */
-        @media only screen and (max-width: 320px) {
+        /* Smallest Mobile Devices 
+       /@media only screen and (max-width: 320px) {
             #hero {
                 height: 480px;
             }
-            .herocontent {
+            /*.herocontent {
                 padding-top: 100px;
                 padding-bottom: 30px;
-            }
+            }*/
