@@ -5,15 +5,13 @@
     #hero {
         max-height: 660px;
     }
-    #clients img {
-        height: 50px;
-    }
+
 
     /* Small Devices, Tablets */
     @media only screen and (max-width: 980px) {
 
         #hero {
-            height: 540px;
+            min-height: 540px;
         }
         #about {
             padding-top: 40px;
@@ -27,14 +25,23 @@
         /*COLLUPSABLE NAVIGATION MENU*/
         .navbar-header {
             float: none;
+            visibility: visible;
         }
         .navbar-left,
         .navbar-right {
             float: none !important;
         }
         .navbar-toggle {
-            display: block;
+            background-color: #ea9312;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 15px;
         }
+        .navbar-toggle .icon-bar {
+            color: black;
+            border: 1px solid #efefef;
+        }
+
         .navbar-collapse.collapse {
             display: none!important;
         }
@@ -42,6 +49,9 @@
             float: none;
             padding-left: 30px;
             overflow: hidden;
+        }
+        #about .myphoto img {
+            display: none;
         }
         .collapse.in {
             display: block !important;
@@ -51,7 +61,23 @@
 
     /* Mobile Devices */
     @media only screen and (max-width: 640px) {
-
+        .navbar-header {
+            float: none;
+            visibility: visible;
+        }
+        .navbar-toggle {
+            background-color: #ea9312;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 15px;
+        }
+        .navbar-toggle .icon-bar {
+            color: black;
+            border: 1px solid #efefef;
+        }
+        #about .myphoto img {
+            display: none;
+        }
         h2 {
             font-size: 1.9em;
         }
@@ -62,15 +88,15 @@
             font-size: 1.1em;
         }
         #hero {
-            height: 650px;
+            min-height: 650px;
             text-align: center;
         }
         #about {
             text-align: center;
         }
-.footerlinks {
-	display: none;
-}
+        .footerlinks {
+            display: none;
+        }
         #about .myphoto img {
             display: none;
         }
@@ -78,17 +104,30 @@
         @media only screen and (max-width: 480px) {
             #hero {
                 height: 320px;
-    }
-             #hero  {
+            }
+            #hero {
                 height: 650px;
-                text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312,     0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+                text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
                 font-weight: bolder;
                 background-size: cover;
-}
-       #portfolio a {
-	object-fit: cover;
-}           
-            
+            }
+            .navbar-header {
+                float: none;
+                visibility: visible;
+            }
+            #portfolio a {
+                object-fit: cover;
+            }
+            .navbar-toggle {
+                background-color: #ea9312;
+                background-image: none;
+                border: 1px solid transparent;
+                border-radius: 15px;
+            }
+            .navbar-toggle .icon-bar {
+                color: black;
+                border: 1px solid #efefef;
+            }
             #clients {
                 display: none;
             }
@@ -96,26 +135,46 @@
                 font-size: 1.5em
             }
         }
-#hero h4 {
-    font-size: 16px;
-}
-#hero h1 {
-	font-size: 22px
-}
+        #hero h4 {
+            font-size: 16px;
+        }
+        #hero h1 {
+            font-size: 22px
+        }
         #hero h2 {
             font-size: 22px;
         }
         /* Smallest Mobile Devices */
-       @media only screen and (max-width: 320px) {
-            #hero  {
+        .navbar-header {
+            float: none;
+            visibility: visible;
+        }
+        @media only screen and (max-width: 320px) {
+            .navbar-header {
+                float: none;
+                visibility: visible;
+            }
+            #hero {
                 height: 600px;
-                text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312,     0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+                text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
                 font-weight: bolder;
                 background-size: cover;
-}
-   #portfolio a {
-	object-fit: scale-down;
-}         
-           .herocontent {
-                      padding-bottom: 30px;
+            }
+            #portfolio a {
+                object-fit: scale-down;
+            }
+            .herocontent {
+                padding-bottom: 30px;
+            }
+            .navbar-toggle {
+
+                background-color: #ea9312;
+                background-image: none;
+                border: 1px solid transparent;
+                border-radius: 15px;
+            }
+
+            .navbar-toggle .icon-bar {
+                color: black;
+                border: 1px solid #efefef;
             }
