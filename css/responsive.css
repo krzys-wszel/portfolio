@@ -1,5 +1,13 @@
 /* Medium Devices, Desktops */
 
+
+@media only screen and (min-width: 1060px) {
+    #hero {
+        min-height: 800px;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
 
     #hero {
@@ -118,10 +126,12 @@
             @media only screen and (max-width: 480px) {
                 #hero {
                     height: 320px;
+                    margin: 0 auto;
+                    text-align: center;
                 }
                 #hero {
                     height: 650px;
-                    text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+                    /*text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;*/
                     font-weight: bolder;
                     background-size: cover;
                 }
@@ -151,12 +161,25 @@
             }
             #hero h4 {
                 font-size: 16px;
+                margin-top: 20px;
+            }
+            #hero h6 {
+                font-size: 16px;
+                margin-top: 20px;
+	
+}
+            .herocontent {
+                text-align: center;
             }
             #hero h1 {
-                font-size: 22px
+                font-size: 22px;
+                 text-align: center;
+               margin-right: auto;
+                margin-top: 20px;
             }
             #hero h2 {
                 font-size: 22px;
+                margin-top: 20px;
             }
             /* Smallest Mobile Devices */
             .navbar-header {
@@ -175,7 +198,7 @@
                 }
                 #hero {
                     height: 600px;
-                    text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
+                    /*text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;*/
                     font-weight: bolder;
                     background-size: cover;
                 }

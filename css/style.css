@@ -96,7 +96,7 @@ HERO AREA
 #hero {
     z-index: 1000;
     text-align: center;
-    background: url("../img/hero3.jpg") fixed;
+    background: url("../img/hero.jpg") fixed;
     visibility: visible;
 
     background-size: cover;
@@ -106,24 +106,60 @@ HERO AREA
     margin: auto;
 }
 
-#hero h2,
+/*#hero h2,
 h1 {
     text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
     font-weight: bolder;
-}
-
-#hero h4 {
-    font-size: 32px;
-    font-weight: bolder;
-
-}
+}*/
 
 #hero h1 {
-    font-size: 36px
+    background: black;
+    width: 350px;
+    font-size: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.herocontent h4 {
+    font-size: 32px;
+   
+    background: black;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.herocontent h6 {
+    font-size: 32px;
+   
+    background: black;
+
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.herocontent h2 {
+    margin-top: 10px;
+    font-size: 42px;
+   
+    background: black;
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+.herocontent h1,
+h2,
+h4,
+h6 {
+    color: white;
+
 }
 
 
 .herocontent {
+    text-align: center;
     padding-top: 200px;
     font-weight: 5000;
     z-index: 1000;
@@ -226,6 +262,8 @@ SKILLS SECTION
 .myapps h5 {
     font-size: 32px;
     text-align: center;
+    padding-top: 35px;
+
 }
 
 /*================================
