@@ -13,11 +13,7 @@
     #hero {
         max-height: 660px;
     }
-    #services h4 {
-        font-size: 24px;
-        font-weight: bolder;
-
-    }
+   
 
 
     /* Small Devices, Tablets */
@@ -69,11 +65,7 @@
         .collapse.in {
             display: block !important;
         }
-        #services h4 {
-            font-size: 24px;
-            font-weight: bolder;
-
-        }
+       
 
 
         /* Mobile Devices */
@@ -95,15 +87,7 @@
             #about .myphoto img {
                 display: none;
             }
-            h2 {
-                font-size: 1.9em;
-            }
-            h3 {
-                font-size: 1.5em
-            }
-            h4 {
-                font-size: 1.1em;
-            }
+           
             #hero {
                 min-height: 650px;
                 text-align: center;
@@ -117,11 +101,7 @@
             #about .myphoto img {
                 display: none;
             }
-            #services h4 {
-                font-size: 24px;
-                font-weight: bolder;
-
-            }
+           
             /* Smaller Mobile Devices */
             @media only screen and (max-width: 480px) {
                 #hero {
@@ -159,7 +139,11 @@
                     font-size: 1.5em
                 }
             }
-            #hero h4 {
+            .herocontent {
+                text-align: center;
+                padding-top: 100px;
+            }
+           /* #hero h4 {
                 font-size: 16px;
                 margin-top: 20px;
             }
@@ -168,9 +152,7 @@
                 margin-top: 20px;
 	
 }
-            .herocontent {
-                text-align: center;
-            }
+            
             #hero h1 {
                 font-size: 22px;
                  text-align: center;
@@ -180,24 +162,20 @@
             #hero h2 {
                 font-size: 22px;
                 margin-top: 20px;
-            }
+            }*/
             /* Smallest Mobile Devices */
             .navbar-header {
                 float: none;
                 visibility: visible;
             }
-            #services h4 {
-                font-size: 24px;
-                font-weight: bolder;
-
-            }
+           
             @media only screen and (max-width: 320px) {
                 .navbar-header {
                     float: none;
                     visibility: visible;
                 }
                 #hero {
-                    height: 600px;
+                    max-height: 500px;
                     /*text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;*/
                     font-weight: bolder;
                     background-size: cover;
@@ -206,7 +184,7 @@
                     object-fit: scale-down;
                 }
                 .herocontent {
-                    padding-bottom: 30px;
+                    padding-top: 100px;
                 }
                 .navbar-toggle {
 
@@ -220,8 +198,4 @@
                     color: black;
                     border: 1px solid #efefef;
                 }
-                #services h4 {
-                    font-size: 24px;
-                    font-weight: bolder;
-
-                }
+                
