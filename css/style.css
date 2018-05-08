@@ -1,9 +1,9 @@
+
 * {
     -webkit-transition: .7s ease-out;
     transition: .7s ease-out;
     list-style: none;
     font-family: 'Do Hyeon', sans-serif;
-
 }
 
 .navbar {
@@ -91,6 +91,7 @@ hr.separetor {
 HERO AREA
 ================================*/
 
+
 .icon_hello {
     width: 125px;
     height: 125px;
@@ -101,7 +102,7 @@ HERO AREA
     min-height: 662px;
     z-index: 1000;
     text-align: center;
-    background: url("../img/background.jpg") fixed;
+    background: url("../img/bckg-2%20(2).jpg") fixed;
     visibility: visible;
     background-size: cover;
     -o-object-position: center;
@@ -277,7 +278,7 @@ PORTFOLIO SECTION
 
 .flex-gallery {
   
-      display: grid;
+     
     
     width: 80%;
     margin-right: auto;
@@ -288,7 +289,7 @@ PORTFOLIO SECTION
     display: -ms-flex;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+   /* display: flex;*/
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -304,7 +305,7 @@ PORTFOLIO SECTION
     box-shadow: 0px 0px 20px -6px rgba(5, 5, 5, 1);
     -ms-flex: 1;
     -webkit-box-flex: 1;
-    flex: 1;
+    /*flex: 1;*/
 }
 
 
@@ -336,8 +337,8 @@ PORTFOLIO SECTION
 
 .flex-layer {
     display: none;
-    background-color: #ecf0f1;
-    opacity: 0.8;
+    background-color: #76c2af;
+    
     height: 200px;
 }
 
@@ -350,6 +351,10 @@ PORTFOLIO SECTION
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
+    background-color: #76c2af;
+    opacity: 0.3;
+    
+    
 }
 
 .flex-layer i {
