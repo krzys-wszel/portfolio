@@ -277,9 +277,6 @@ PORTFOLIO SECTION
 }
 
 .flex-gallery {
-  
-     
-    
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -289,7 +286,7 @@ PORTFOLIO SECTION
     display: -ms-flex;
     display: -webkit-box;
     display: -ms-flexbox;
-   /* display: flex;*/
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -305,9 +302,8 @@ PORTFOLIO SECTION
     box-shadow: 0px 0px 20px -6px rgba(5, 5, 5, 1);
     -ms-flex: 1;
     -webkit-box-flex: 1;
-    /*flex: 1;*/
+    flex: 1;
 }
-
 
 .img-1 {
     background-image: url("../img/1.png");
@@ -352,7 +348,8 @@ PORTFOLIO SECTION
     -webkit-box-direction: normal;
     flex-direction: column;
     background-color: #76c2af;
-    opacity: 0.3;
+    opacity: 0.9;
+     
     
     
 }
@@ -362,7 +359,10 @@ PORTFOLIO SECTION
     color: green;
     text-shadow: 1px 1px 2px #fff;
 }
-
+#portfolio .flex-row h3, p {
+    
+	
+}
 #portfolio {
     background: #efefef;
     margin-top: 50px;
