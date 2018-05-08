@@ -30,8 +30,6 @@
     margin-right: 10px;
 }
 
-
-
 .bigicon {
     font-size: 3em;
 
@@ -96,7 +94,6 @@ HERO AREA
 .icon_hello {
     width: 125px;
     height: 125px;
-
     text-align: center;
 }
 
@@ -106,54 +103,27 @@ HERO AREA
     text-align: center;
     background: url("../img/background.jpg") fixed;
     visibility: visible;
-
     background-size: cover;
     -o-object-position: center;
     object-position: center;
-    height: 450px;
     margin: auto;
 }
-
-/*#hero h2,
-h1 {
-    text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;
-    font-weight: bolder;
-}*/
-
-/*#hero h1 {
-    background: black;
-    width: 350px;
-    font-size: 42px;
-    margin: 0 auto;
-    margin-top: 10px;
-}*/
 
 .herocontent h1 {
     font-size: 60px;
     color: white;
-    /* background: black;
-    max-width: 350px;
-    margin: 0 auto;
-    margin-top: 10px;*/
 }
 
 .herocontent h4 {
     font-size: 32px;
     color: white;
-    /*  background: black;
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 10px;*/
 }
 
 .herocontent h6 {
     color: white;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    /* background: black;
-
-    margin: 0 auto;
-    margin-top: 10px;*/
+    
 }
 
 
@@ -181,7 +151,7 @@ ABOUT SECTION*/
 #about p {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-     color: #585858;
+    color: #585858;
 }
 
 #about {
@@ -226,12 +196,15 @@ SERVICES SECTION
 #services .items {
     padding-top: 30px;
 }
+
 #services p {
     font-family: 'Roboto', sans-serif;
-   color: #585858;
+    color: #585858;
+    font-size: 18px;
 }
+
 #services h4 {
-   visibility: visible;
+    visibility: visible;
 }
 
 /*===============================
@@ -283,6 +256,7 @@ PORTFOLIO SECTION
 
 #portfolio {
     padding-top: 75px;
+   
 }
 
 #portfolio i {
@@ -302,6 +276,9 @@ PORTFOLIO SECTION
 }
 
 .flex-gallery {
+  
+      display: grid;
+    
     width: 80%;
     margin-right: auto;
     margin-left: auto;
