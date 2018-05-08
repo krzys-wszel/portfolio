@@ -2,25 +2,22 @@
 
 
 @media only screen and (min-width: 1060px) {
-    #hero {
-        min-height: 800px;
+   /* #hero {
+        
         width: 100%;
     }
-}
+}*/
 
 @media only screen and (max-width: 1024px) {
-
-    #hero {
-        max-height: 660px;
-    }
-   
+    { min-height: 662px;}
+  
 
 
     /* Small Devices, Tablets */
     @media only screen and (max-width: 980px) {
 
         #hero {
-            min-height: 540px;
+           
         }
         #about {
             padding-top: 40px;
@@ -89,7 +86,7 @@
             }
            
             #hero {
-                min-height: 650px;
+                
                 text-align: center;
             }
             #about {
@@ -105,12 +102,12 @@
             /* Smaller Mobile Devices */
             @media only screen and (max-width: 480px) {
                 #hero {
-                    height: 320px;
+                   /* height: 320px;*/
                     margin: 0 auto;
                     text-align: center;
                 }
                 #hero {
-                    height: 650px;
+                    
                     /*text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;*/
                     font-weight: bolder;
                     background-size: cover;
@@ -141,7 +138,7 @@
             }
             .herocontent {
                 text-align: center;
-                padding-top: 100px;
+                padding-top: 50px;
             }
            /* #hero h4 {
                 font-size: 16px;
@@ -168,6 +165,12 @@
                 float: none;
                 visibility: visible;
             }
+            .herocontent h6 {
+                    font-size: 24px;
+                }
+           #hero .herocontent h1 {
+                    font-size: 24px;
+                }
            
             @media only screen and (max-width: 320px) {
                 .navbar-header {
@@ -175,17 +178,26 @@
                     visibility: visible;
                 }
                 #hero {
-                    max-height: 500px;
+                   max-height: 611px;
                     /*text-shadow: 0 0 10px #ea9312, 0 0 20px #ea9312, 0 0 30px #ea9312, 0 0 40px #ea9312, 0 0 70px #ea9312, 0 0 80px #ea9312, 0 0 100px #ea9312, 0 0 150px #ea9312;*/
                     font-weight: bolder;
                     background-size: cover;
+                   /* height: 100vh;*/
                 }
                 #portfolio a {
                     object-fit: scale-down;
                 }
-                .herocontent {
-                    padding-top: 100px;
+                .herocontent h6 {
+                    font-size: 20px;
                 }
+                .herocontent h1 {
+                    font-size: 24px;
+                }
+	
+}
+               /* .herocontent {
+                    padding-top: 50px;
+                }*/
                 .navbar-toggle {
 
                     background-color: #ea9312;
