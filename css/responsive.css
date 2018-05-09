@@ -1,8 +1,8 @@
 /* Medium Devices, Desktops */
 
-@media only screen and (min-width: 1060px) @media only screen and (max-width: 1024px) {
-        {
-        min-height: 662px;
+@media only screen and (min-width: 1900px)  {
+    #hero {
+        min-height: 1066px;
     }
 }
 
