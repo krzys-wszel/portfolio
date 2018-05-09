@@ -207,7 +207,11 @@
         padding: 0;
     }
     .flex-row {
+<<<<<<< HEAD
         display: grid;
+=======
+       display: grid;
+>>>>>>> 23b568e045f1b3a598b53dd33f115003527e2c27
     }
 
 
