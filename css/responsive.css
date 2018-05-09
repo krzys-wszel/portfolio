@@ -14,13 +14,9 @@
     #about {
         padding-top: 40px;
     }
-
-    /* PORTFOLIO SECTION */
     .myphoto {
         text-align: center;
     }
-
-
     .navbar-header {
         float: none;
         visibility: visible;
@@ -39,7 +35,6 @@
         color: black;
         border: 1px solid #efefef;
     }
-
     .navbar-collapse.collapse {
         display: none!important;
     }
@@ -53,6 +48,9 @@
     }
     .collapse.in {
         display: block !important;
+    }
+    .flex-row {
+        display: grid;
     }
 
 }
@@ -96,6 +94,9 @@
     }
     #about .myphoto img {
         display: none;
+    }
+    .flex-row {
+        display: grid;
     }
 
 
@@ -159,7 +160,10 @@
     .herocontent {
         padding-top: 50px;
     }
-    
+    .flex-row {
+        display: grid;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -202,5 +206,9 @@
     .myapps ul {
         padding: 0;
     }
-    
+    .flex-row {
+        display: grid;
+    }
+
+
 }

@@ -1,3 +1,6 @@
+/*================================
+GENERAL
+================================*/
 
 * {
     -webkit-transition: .7s ease-out;
@@ -11,46 +14,8 @@
     background-color: #efefef;
 }
 
-.btn-default {
-    background: none;
-    border: none;
-    text-transform: uppercase;
-    margin: 50px 0;
-    color: #c3c3c3;
-    letter-spacing: 2px;
-}
-
-.btn-default:hover {
-    background: none;
-    color: #ea9312;
-}
-
-.btnicon,
-.brandicon {
-    margin-right: 10px;
-}
-
 .bigicon {
     font-size: 3em;
-
-}
-
-h2 {
-    font-size: 55px;
-}
-
-h3 {
-    font-size: 35px;
-}
-
-h4 {
-    font-size: 25px;
-    line-height: 1.4em;
-}
-
-
-ul {
-    padding: 0;
 }
 
 a {
@@ -60,24 +25,6 @@ a {
 a:hover {
     color: #c3c3c3;
     text-decoration: none;
-}
-
-#services {
-    text-align: center;
-}
-
-.col-md-4,
-.col-md-6 {
-    padding-bottom: 50px;
-}
-
-.col-md-3 {
-    padding: 0;
-}
-
-.sectionhead {
-    text-align: center;
-
 }
 
 hr.separetor {
@@ -90,7 +37,6 @@ hr.separetor {
 /*================================
 HERO AREA
 ================================*/
-
 
 .icon_hello {
     width: 125px;
@@ -124,25 +70,19 @@ HERO AREA
     color: white;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    
+
 }
-
-
-
 
 .herocontent {
     text-align: center;
     padding-top: 150px;
     font-weight: 5000;
     z-index: 1000;
-
 }
 
 
 /*================================
 ABOUT SECTION*/
-
-#about .me p {}
 
 #about h3 {
     font-size: 40px;
@@ -157,6 +97,8 @@ ABOUT SECTION*/
 
 #about {
     padding-top: 75px;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 #about .myphoto img {
@@ -177,21 +119,33 @@ ABOUT SECTION*/
 SERVICES SECTION
 ================================*/
 
+.sectionhead {
+    text-align: center;
+}
+
 #services {
     padding-top: 75px;
+    text-align: center;
 }
 
 #services img {
     width 100px;
     height: 100px;
     border-radius: 50%;
-
 }
 
 #services h5 {
     font-size: 32px;
     text-align: center;
     padding-top: 35px;
+}
+
+#services h3 {
+    font-size: 35px;
+}
+
+#services h4 {
+    font-size: 25px;
 }
 
 #services .items {
@@ -204,10 +158,6 @@ SERVICES SECTION
     font-size: 18px;
 }
 
-#services h4 {
-    visibility: visible;
-}
-
 /*===============================
 SKILLS SECTION
 ================================*/
@@ -217,17 +167,18 @@ SKILLS SECTION
     background: #efefef;
     width: 100%;
     min-height: 500px;
+    text-align: center;
+    padding-bottom: 75px;
+
 }
 
 .myapps ul {
     text-align: center;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     padding-left: 100px;
     padding-right: 100px;
 }
-
 
 .myapps li {
     text-align: center;
@@ -243,12 +194,10 @@ SKILLS SECTION
 
 }
 
-
 .myapps h5 {
     font-size: 32px;
     text-align: center;
     padding-top: 35px;
-
 }
 
 /*================================
@@ -256,8 +205,15 @@ PORTFOLIO SECTION
 ================================*/
 
 #portfolio {
+    background: #efefef;
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
     padding-top: 75px;
-   
+}
+
+#portfolio h3 {
+    font-size: 35px;
 }
 
 #portfolio i {
@@ -277,9 +233,6 @@ PORTFOLIO SECTION
 }
 
 .flex-gallery {
-  
-     
-    
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -289,7 +242,7 @@ PORTFOLIO SECTION
     display: -ms-flex;
     display: -webkit-box;
     display: -ms-flexbox;
-   /* display: flex;*/
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -305,9 +258,8 @@ PORTFOLIO SECTION
     box-shadow: 0px 0px 20px -6px rgba(5, 5, 5, 1);
     -ms-flex: 1;
     -webkit-box-flex: 1;
-    /*flex: 1;*/
+    flex: 1;
 }
-
 
 .img-1 {
     background-image: url("../img/1.png");
@@ -338,7 +290,6 @@ PORTFOLIO SECTION
 .flex-layer {
     display: none;
     background-color: #76c2af;
-    
     height: 200px;
 }
 
@@ -352,9 +303,7 @@ PORTFOLIO SECTION
     -webkit-box-direction: normal;
     flex-direction: column;
     background-color: #76c2af;
-    opacity: 0.3;
-    
-    
+    opacity: 0.9;
 }
 
 .flex-layer i {
@@ -363,13 +312,19 @@ PORTFOLIO SECTION
     text-shadow: 1px 1px 2px #fff;
 }
 
-#portfolio {
-    background: #efefef;
-    margin-top: 50px;
-    padding: 30px 0;
-    text-align: center;
+.btn-default {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    margin: 50px 0;
+    color: #c3c3c3;
+    letter-spacing: 2px;
 }
 
+.btn-default:hover {
+    background: none;
+    color: #ea9312;
+}
 
 
 /*================================
