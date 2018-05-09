@@ -26,7 +26,7 @@
         float: none !important;
     }
     .navbar-toggle {
-        background-color: #ea9312;
+        background-color: #76c2af;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 15px;
@@ -69,7 +69,7 @@
         visibility: visible;
     }
     .navbar-toggle {
-        background-color: #ea9312;
+        background-color: #76c2af;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 15px;
@@ -129,7 +129,7 @@
         object-fit: cover;
     }
     .navbar-toggle {
-        background-color: #ea9312;
+        background-color: #76c2af;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 15px;
@@ -194,7 +194,7 @@
     }
 
     .navbar-toggle {
-        background-color: #ea9312;
+        background-color: #76c2af;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 15px;
@@ -207,12 +207,8 @@
         padding: 0;
     }
     .flex-row {
-<<<<<<< HEAD
         display: grid;
-=======
-       display: grid;
->>>>>>> 23b568e045f1b3a598b53dd33f115003527e2c27
-    }
-
+  }
+   
 
 }

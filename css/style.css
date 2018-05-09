@@ -363,6 +363,9 @@ footer {
     padding: 50px 0;
     background: #363942;
 }
+footer ul {
+    padding: 5px 5px 5px 5px;
+}
 
 footer i {
     visibility: visible;
@@ -388,7 +391,7 @@ footer i {
 }
 
 footer i:hover {
-    color: #ea9312;
+    color: #76c2af;
 }
 
 .footerlinks {
