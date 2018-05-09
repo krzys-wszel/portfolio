@@ -19,7 +19,8 @@ GENERAL
 }
 
 a {
-    color: #ea9312;
+    color: #76c2af;
+    /*color: #ea9312;*/
 }
 
 a:hover {
@@ -28,11 +29,14 @@ a:hover {
 }
 
 hr.separetor {
-    width: 80px;
+    width: 120px;
     color: #363942;
-    border-top: 2px solid #ea9312;
+    /*border-top: 2px solid #ea9312;*/
+    border-top: 2px solid #76c2af;
 }
-
+span.btnicon {
+    padding: 10px;
+}
 
 /*================================
 HERO AREA
@@ -212,8 +216,15 @@ PORTFOLIO SECTION
     padding-top: 75px;
 }
 
+#portfolio h7 {
+    font-size: 35px;
+     color: black;
+       font-weight: lighter;
+    
+}
 #portfolio h3 {
     font-size: 35px;
+    font-weight: lighter;
 }
 
 #portfolio i {
@@ -230,6 +241,10 @@ PORTFOLIO SECTION
 
 .projects p {
     text-transform: uppercase;
+          font-family: inherit;
+    font-weight: 500;
+  color: black;
+    
 }
 
 .flex-gallery {
