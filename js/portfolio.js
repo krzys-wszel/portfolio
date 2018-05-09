@@ -64,46 +64,14 @@ $(function () {
 //========================
 //icon hover effect
 //========================
-$('#hero').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
-    });
+
 $('#services img').hover(
     function () {
         $(this).addClass('animated pulse')
     },
     function () {
         $(this).removeClass('animated pulse')
-    });
-
-$('#skills ').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
-    });
-$('#services').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
-    });
-$('#about').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
-    });
-$('#portfolio').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
     })
+
+
+
